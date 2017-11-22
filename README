@@ -2,10 +2,10 @@
 	- Docker
 	- Docker-compose
 
-Run
+#Run
 	docker-compose up -d
 	docker-compose logs -f >> /var/log/testapp.log
 
-Next step:
+#Next step:
 	Provision application with ansible
 	Install rsyslog to docker hosts and use syslog drive to centralize log Testapp
